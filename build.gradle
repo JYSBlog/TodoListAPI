@@ -64,7 +64,7 @@ jacocoTestReport {
 sonarqube {
     properties {
         property 'sonar.host.url', 'https://sonarcloud.io'
-        property "sonar.projectKey", "JYSBlog_TodoList"
+        property "sonar.projectKey", "JYSBlog_TodoListAPI"
         property "sonar.organization", "jysblog"
         // 자코코 결과 리포트 주소
         property 'sonar.coverage.jacoco.xmlReportPaths', 'build/reports/jacoco/test/jacocoTestReport.xml'
