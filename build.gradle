@@ -42,6 +42,10 @@ dependencies {
 
     // jasypt
     implementation 'com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.4'
+
+    // mapStruct
+    implementation 'org.mapstruct:mapstruct:1.4.2.Final'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
 }
 
 jar {
